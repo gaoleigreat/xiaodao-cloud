@@ -4,16 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ruoyi.cloud</groupId>
-    <artifactId>ruoyi-cloud</artifactId>
+    <groupId>com.xiaodao.cloud</groupId>
+    <artifactId>xiaodao-cloud</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
-    <name>ruoyi-cloud</name>
-    <url>http://www.ruoyi.vip</url>
-    <description>若依管理系统</description>
+    <name>xiaodao-cloud</name>
+    <url>http://www.xiaodao.vip</url>
+    <description>小刀管理系统</description>
 
     <properties>
-        <ruoyi.version>1.0.0-SNAPSHOT</ruoyi.version>
+        <xiaodao.version>1.0.0-SNAPSHOT</xiaodao.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -147,9 +147,9 @@
 
             <!-- 代码生成 -->
             <dependency>
-                <groupId>com.ruoyi.cloud</groupId>
-                <artifactId>ruoyi-generator</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.xiaodao.cloud</groupId>
+                <artifactId>xiaodao-generator</artifactId>
+                <version>${xiaodao.version}</version>
             </dependency>
 
 
@@ -210,13 +210,13 @@
 
     <modules>
 
-        <module>ruoyi-common</module>
-        <module>ruoyi-config</module>
-        <module>ruoyi-eureka</module>
-        <module>ruoyi-gateway</module>
-        <module>ruoyi-service-api</module>
-        <module>ruoyi-service</module>
-        <module>ruoyi-tool</module>
+        <module>xiaodao-common</module>
+        <module>xiaodao-config</module>
+        <module>xiaodao-eureka</module>
+        <module>xiaodao-gateway</module>
+        <module>xiaodao-service-api</module>
+        <module>xiaodao-service</module>
+        <module>xiaodao-tool</module>
     </modules>
     <packaging>pom</packaging>
 
